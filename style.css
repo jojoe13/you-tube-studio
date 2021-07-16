@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+
+html,body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+    border-bottom: lightgray 1px solid; 
+}
+.menuTab{
+    display: flex;
+    flex-direction: row;
+    padding:5px;
+    align-items: center;
+}
+.fa-bars{
+    padding: 0 25px;
+    font-size: 18px;
+}
+.icolor{
+    color: red;
+}
+.ifont{
+    font-size: 30px;
+}
+.searchTab{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 30px;
+    padding: 0 10px;
+    border: lightgray 1px solid;
+}
+.fa-search{
+    color: lightgrey;
+}
+.input{
+    width: 40%;
+    border: none;
+    font-size: 14px;
+    margin: 0 10px;
+}
+.ppic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.accTab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px;
+    justify-content: space-between;
+}
+.fa-question-circle{
+    font-size: 20px;
+}
+.cBtn{
+    width: 100px;
+    height: 30px;
+    margin: 0 20px;
+    background-color: white;
+    font-size: 14px;
+    border: lightgray 1px solid;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mainContainer{
+    display: flex;
+}
+.menuContainer{
+    width: 15%;
+}
+.headPic{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.channelPic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 20px auto;
+}
+.title{
+    text-align: center;
+    margin:10px 0;
+}
+.menuList{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    list-style: none;
+}
+.contentContainer{
+    width: 85%;
+    background-color: #F1F1F1;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.column{
+    width: 300px;
+    margin: 20px;
+}
+.box{
+    padding: 20px;
+    border-radius: 5px; 
+    background-color: white;
+    margin-bottom: 20px;
+}
+.boxTitle{
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.image1Container{
+    height:170px ;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+.img-1{
+    width: 100%;
+    margin-top: -35px;
+}
+.text-1{
+    font-size: 13px;
+}
+.itemContainer{
+    margin-bottom: 24px;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 0px;
+}
+.link{
+    margin-top: 16px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.colHead{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-2{
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 16px;
+}
+
+.text-2{
+    margin-bottom: 13px;
+}
+.fs{
+    font-size: 12px;
+}
+.op{
+    opacity: 0.5;
+}
+.subscribers{
+    font-size: 35px;
+}
+.tc{
+    color: green;
+}
+.divider{
+    height: 1px;
+    background-color:lightgray;
+    margin: 25px 0px;
+}
+.summaryContainer{
+    margin-bottom: 10px;
+}
+.summary{
+    margin-bottom: 5px;
+}
+
+.summaryStat{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.playlist{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+.overflowEllipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.faf{
+    font-size: 18px;
+    margin-left: 7px;
+}
+.fa-chevron-left{
+    margin-right: 20px;
+}
+
+.commentBox{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px; 
+}
+
+.imgItem{
+    width: 60px;
+    height: 30px;
+}
+.pBox{
+    display: flex;
+}
+.pName{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color:rgb(235, 119, 42);
+    color: white;
+}
+.profile{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+.textBox{
+    margin-left: 5px;
+}
+.mt{
+    margin-top: 8px;
+}
+.dividers{
+    height: 1px;
+    background-color:lightgray;
+    margin: 15px 0px;
+}
+.profiles{
+    width: 40px;
+    height:40px;
+    border-radius: 50px;
+    margin-right: 8px;
+}
